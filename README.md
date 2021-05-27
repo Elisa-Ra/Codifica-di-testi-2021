@@ -35,7 +35,7 @@ Figli:
 * header(obbligatorio una volta sola)
 * facsimile(opzionale una volta sola)
 * testo(obbligatorio una o più volte)
-* testo è un mixed content con possibile elemento <seg>
+* testo è un mixed content con possibile elemento < seg >
 
  Attributi:  
   
