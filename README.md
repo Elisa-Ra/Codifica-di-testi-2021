@@ -39,7 +39,7 @@ Figli:
 
  Attributi:  
   
-* header: type:(fixed, CDATA “intestazione”); lang(opzionale, NMTOKEN)
-* facsimile: source:(obbligatorio); ref(optionale, IDREFS)
-* testo: id(obbligatorio, ID) type(opzionale contenuto testuale)
+* header: type: (fixed, CDATA “intestazione”); lang (opzionale, NMTOKEN)
+* facsimile: source: (obbligatorio); ref (optionale, IDREFS)
+* testo: id (obbligatorio, ID) type (opzionale contenuto testuale)
 
