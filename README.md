@@ -24,6 +24,7 @@ Definire i seguenti elementi:
 * header (obbligatorio una occorrenza)
 * facsimile (opzionale una occorrenza)
 * text (obbligatorio almeno una occorrenza)
+
 Gli elementi header, facsimile e text hanno tutti un content model testuale.
 
 ## 6. Esercizio 6:
