@@ -28,12 +28,14 @@ Gli elementi header, facsimile e text hanno tutti un content model testuale.
 
 ## 6. Esercizio 6:
 root: TEI
-### Figli:
+Figli:
+
 * header(obbligatorio una volta sola)
 * facsimile(opzionale una volta sola)
 * testo(obbligatorio una o più volte)
 * testo è un mixed content con possibile elemento <seg>
-### Attributi:
+Attributi:
+  
 * header: type:(fixed, CDATA “intestazione”); lang(opzionale, NMTOKEN)
 * facsimile: source:(obbligatorio); ref(optionale, IDREFS)
 * testo: id(obbligatorio, ID) type(opzionale contenuto testuale)
