@@ -9,10 +9,10 @@ Scrivere e fare il check di un xml non opportunamente annidato.
 
 ## 3. Esercizio 3:
 Aprire il file XML non ben formato presente nel repository github:
-validarlo con un parser XML,
-correggerlo (commentando gli errori e le modifiche),
-aggiungere un figlio (child) ad un elemento,
-aggiungere un fratello (sibling) ad un elemento.
+* validarlo con un parser XML,
+* correggerlo (commentando gli errori e le modifiche),
+* aggiungere un figlio (child) ad un elemento,
+* aggiungere un fratello (sibling) ad un elemento.
 
 ## 4. Esercizio 4:
 Inserire all’interno di un tag un frammento di codice HTML.
@@ -25,3 +25,16 @@ Definire i seguenti elementi:
 * facsimile (opzionale una occorrenza)
 * text (obbligatorio almeno una occorrenza)
 Gli elementi header, facsimile e text hanno tutti un content model testuale.
+
+## 6. Esercizio 6:
+root: TEI
+Figli:
+* header(obbligatorio una volta sola)
+* facsimile(opzionale una volta sola)
+* testo(obbligatorio una o più volte)
+* testo è un mixed content con possibile elemento <seg>
+Attributi:
+* header: type:(fixed, CDATA “intestazione”); lang(opzionale, NMTOKEN)
+* facsimile: source:(obbligatorio); ref(optionale, IDREFS)
+* testo: id(obbligatorio, ID) type(opzionale contenuto testuale)
+
