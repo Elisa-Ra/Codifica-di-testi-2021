@@ -16,3 +16,12 @@ aggiungere un fratello (sibling) ad un elemento.
 
 ## - Esercizio 4:
 Inserire all’interno di un tag un frammento di codice HTML.
+
+## - Esercizio 5:
+* Definire i seguenti elementi:
+* elemento root: TEI
+* elementi figli:
+* header (obbligatorio una occorrenza)
+* facsimile (opzionale una occorrenza)
+* text (obbligatorio almeno una occorrenza)
+Gli elementi header, facsimile e text hanno tutti un content model testuale.
