@@ -1,0 +1,16 @@
+<? xml version="1.0" encoding="UTF-8" ?>
+<!-- This document contains data on Codifica di Testi.
+Filename: Es6.xml
+Author: Elisa Raeli
+-->
+<TEI>
+    <header type="intestazione"> </header>
+
+    <facsimile source="www.google.com"> </facsimile>
+
+    <testo id="1"> 
+    <seg> </seg>
+    </testo>
+
+
+</TEI>
