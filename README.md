@@ -14,10 +14,10 @@ correggerlo (commentando gli errori e le modifiche),
 aggiungere un figlio (child) ad un elemento,
 aggiungere un fratello (sibling) ad un elemento.
 
-## * Esercizio 4:
+## 4. Esercizio 4:
 Inserire all’interno di un tag un frammento di codice HTML.
 
-## * Esercizio 5:
+## 5. Esercizio 5:
 Definire i seguenti elementi:
 * elemento root: TEI
 * elementi figli:
