@@ -36,7 +36,7 @@ Figli:
 * testo(obbligatorio una o più volte)
 * testo è un mixed content con possibile elemento <seg>
 
-  Attributi:  
+ Attributi:  
   
 * header: type:(fixed, CDATA “intestazione”); lang(opzionale, NMTOKEN)
 * facsimile: source:(obbligatorio); ref(optionale, IDREFS)
