@@ -1,0 +1,15 @@
+<? xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!-- This document contains data on Codifica di Testi.
+Filename: Es4.xml
+Author: Elisa Raeli
+-->
+<TEI>
+
+	<htmlCode> <!-- cdata non viene interpretato dal parser xml, non si possono inserire commenti in esso-->
+		<![CDATA[ 	
+			<h1>Capitolo Primo</h1>
+			<h2>Sezione Seconda</h2> 
+		]]> 
+	</htmlCode>
+
+</TEI>
