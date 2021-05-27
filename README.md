@@ -12,3 +12,6 @@ validarlo con un parser XML,
 correggerlo (commentando gli errori e le modifiche),
 aggiungere un figlio (child) ad un elemento,
 aggiungere un fratello (sibling) ad un elemento.
+
+## - Esercizio 4:
+Inserire all’interno di un tag un frammento di codice HTML.
