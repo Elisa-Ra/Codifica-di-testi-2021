@@ -43,3 +43,7 @@ Figli:
 * facsimile: source: (obbligatorio); ref (optionale, IDREFS)
 * testo: id (obbligatorio, ID) type (opzionale contenuto testuale)
 
+## 7. Esercizio 7:
+* includere all’interno di un documento XML la dichiarazione del tipo, definire internamente gli elementi e gli attributi e validare.
+* inserire nel prologo di un documento XML la dichiarazione del tipo di documento e validare.
+* Creare un file esterno con estensione .dtd prima di includerlo nel prologo XML.
