@@ -51,6 +51,6 @@ Figli:
 ## 8. Esercizio 8:
 * Marcare un testo plain text di circa 3000 caratteri a piacere.
 * inserire prologo XML
-* marcare la struttura usando gli elementi fin qui descritti, in particolare marcare tutti i paragrafi usando <p> e la struttura editoriale usando <div>
+* marcare la struttura usando gli elementi fin qui descritti, in particolare marcare tutti i paragrafi usando < p > e la struttura editoriale usando < div >
 * verificare che sia ben formato con xmllint
 * salvare il file XML su github
