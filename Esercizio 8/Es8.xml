@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Marcare un testo plain text di circa 3000 caratteri a piacere.
+  Filename: Es8.xml
+  Author: Elisa Raeli
+  Date: 30/05/2021 -->
+<TEI> <!--Radice testo-->
+  
+    <teiHeader>
+        <fileDesc> <!--informazioni sul file stesso, non sull'originale-->
+            <titleStmt>
+                <title>FAHRENHEIT 451</title>
+                <respStmt>
+                    <resp>Conversione TEI P5 a cura di</resp>
+                    <name>Elisa Raeli</name>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+            <publisher>Oscar Mondadori</publisher>
+            <date>2014</date>
+            </publicationStmt>
+
+            <sourceDesc><bibl> <!--Riferimento alla fonte originale-->
+                    <title>Fahrenheit 451</title>
+                    <author>Ray Bradbury</author>
+                    <publisher>Ballantine Books</publisher>
+                    <date>19 October 1953</date>
+            </bibl></sourceDesc>
+
+        </fileDesc>
+    </teiHeader>
+
+  <text>
+    <body>
+      <div>
+        <head>IL FOCOLARE E LA SALAMANDRA</head>
+          <p>Era una gioia appiccare il fuoco.</p>
+          <p>Era una gioia speciale vedere le cose divorate, vederle 
+          annerite, <hi rend="italic">diverse</hi>. Con la punta di rame del tubo fra le mani, 
+          con quel grosso pitone che sputava il suo cherosene 
+          venefico sul mondo, il sangue gli martellava contro le tempie, e 
+          le sue mani diventavano le mani di non si sa quale direttore
+          d’orchestra che suonasse tutte le sinfonie fiammeggianti, 
+          incendiarie, per far cadere tutti i cenci e le rovine carbonizzate 
+          della storia. Col suo elmetto simbolicamente numerato 
+          451 sulla stolida testa, con gli occhi tutta una fiamma arancione 
+          al pensiero di quanto sarebbe accaduto la prossima volta, 
+          l’uomo premette il bottone dell’accensione, e la casa 
+          sussultò in una fiammata divorante che prese ad arroventare 
+          il cielo vespertino, poi a ingiallirlo e infine ad annerirlo. 
+          Egli camminava dentro una folata di lucciole. Voleva 
+          soprattutto, come nell’antico scherzo, spingere un’altea su 
+          un bastone dentro la fornace, mentre i libri sbatacchiando 
+          le ali di piccione, morivano sulla veranda e nel giardinetto 
+          della casa, salivano in vortici sfavillanti e svolazzavano 
+          via portati da un vento fatto nero dall’incendio. 
+          </p>
+          <p>Montag ebbe il sorriso crudele di tutti gli uomini 
+          bruciacchiati e respinti dalla fiamma.</p>
+          <p> Sapeva che quando fosse ritornato alla sede degli incendiari 
+          avrebbe potuto ammiccare a se stesso, specie di giullare 
+          negro, sporco di carbon fossile, davanti allo specchio. 
+          Poi, all’atto di coricarsi, si sarebbe sentito quel sorriso, una 
+          sorta di smorfia, ancora artigliato nei muscoli facciali, al buio. 
+          Non scompariva mai, quel sogghigno, non se n’era andato mai 
+          nemmeno una volta per quanto riandasse con la memoria al passato.
+          </p>
+          <p>Appese il nero elmetto color coleottero e si mise a lustrarlo; 
+          appesa poi la giubba antincendio, con molta cura, si abbandonò 
+          lungamente alle gioie di una doccia; poi, fischiettando, le mani 
+          in tasca, attraversò il piano superiore della casa del fuoco e 
+          cadde nel buco. All’ultimo momento, quando il disastro sembrava 
+          inevitabile, tolse le mani di tasca e interruppe la caduta 
+          afferrandosi al palo dorato. Scivolò fino a fermarsi con un suono 
+          stridulo, con i talloni a due centimetri dal pavimento di cemento 
+          del pianterreno. Uscì quindi dalla casa del fuoco e si diresse per la 
+          strada notturna – era mezzanotte – verso la ferrovia sotterranea, dove 
+          il silenzioso convoglio ad aria compressa, scivolando come un’ombra 
+          dentro il suo budello bene oleato nelle viscere della terra, lo rigurgitò 
+          con uno sbuffo possente d’aria calda sulla scala mobile dal pavimento color 
+          crema, che saliva verso la superficie, nella zona suburbana.
+          </p>
+          <p>Zufolando, si lasciò sollevare dalla scala mobile nell’aria 
+          pesante della notte e si spinse verso la cantonata, non pensando 
+          a nulla di speciale. Prima di giungere alla cantonata, tuttavia, 
+          rallentò, come se un gran vento si fosse sollevato chissà dove, 
+          come se qualcuno lo avesse chiamato per nome.
+          </p>
+          <p>In quelle ultimissime notti aveva avuto le sensazioni più vaghe 
+          e insolite sul marciapiede là, appena passato l’angolo, mentre alla 
+          luce delle stelle si dirigeva verso casa sua.
+          </p>
+        
+      </div>
+    </body>
+  </text>
+</TEI>
