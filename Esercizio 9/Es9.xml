@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<TEI>
+	<!--esempio puntatore e note-->
+	<note n="1" place="foot"> Si veda il <ref target=‘‘#cap7.22’’>settimo capitolo, par. 22</ref></note>
+
+	<!--esempio lista, glossario-->
+	<list type="gloss">
+		<head>Lista della spesa:</head>
+			<label>1</label>
+			<item>salsa di soia;</item>
+			<label>2</label>
+			<item>riso;</item>
+			<label>3</label>
+			<item>avocado;</item>
+			<label>4</label>
+			<item>salmone.</item>
+	</list>
+
+	<!--esempio="referring string e name"-->
+	<p>Il nome del <rs type="person">Guaritore </rs> era <name type="person">Acque Profonde</name>.</p>
+
+</TEI>
