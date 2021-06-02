@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- codificare usando gli opportuni elementi TEI una cartolina
+  Filename: Es10-cartolina.xml
+  Author: Elisa Raeli
+  Date: 02/06/2021 -->
+
+<TEI>
+ <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title>Es10-cartolina</title>
+                <respStmt>
+                    <resp>Conversione TEI P5 a cura di</resp>
+                    <name>Elisa Raeli</name>
+                </respStmt>
+            </titleStmt>
+
+            <sourceDesc>
+            <bibl> 
+                    <title typr="custom">[Donna seduta] </title>
+            </bibl>
+            </sourceDesc>
+
+        </fileDesc>
+    </teiHeader>
+      
+        <body>
+            <div type="fronte">
+                <figure>
+                    <graphic url="7694-001F.jpg" />
+                    <figDesc>Donna seduta serena</figDesc>
+                    <head>Donna seduta</head>
+                </figure>
+            </div>
+        </body>
+</TEI>
