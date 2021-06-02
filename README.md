@@ -57,3 +57,7 @@ Figli:
 
 ## 9. Esercizio 9:
 Utilizzare puntatori, note, lista, glossario marcare nomi, rs, term.
+
+## 10. Esercizio 10:
+* codificare usando gli opportuni elementi TEI un articolo di rivista
+* codificare usando gli opportuni elementi TEI una cartolina
