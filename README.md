@@ -54,3 +54,6 @@ Figli:
 * marcare la struttura usando gli elementi fin qui descritti, in particolare marcare tutti i paragrafi usando < p > e la struttura editoriale usando < div >
 * verificare che sia ben formato con xmllint
 * salvare il file XML su github
+
+## 9. Esercizio 9:
+Utilizzare puntatori, note, lista, glossario marcare nomi, rs, term.
