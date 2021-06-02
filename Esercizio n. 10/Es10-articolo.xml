@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- codificare usando gli opportuni elementi TEI un articolo di rivista
+  Filename: Es10-articolo.xml
+  Author: Elisa Raeli
+  Date: 02/06/2021 -->
+
+<TEI>
+  <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title>Es10-articolo</title>
+                <respStmt>
+                    <resp>Conversione TEI P5 a cura di</resp>
+                    <name>Elisa Raeli</name>
+                </respStmt>
+            </titleStmt>
+
+            <sourceDesc>
+            <biblStruct xml:id="Mckeever2021"> 
+            <analytic>
+                    <title level="a">Gli antichi primati esistevano all’epoca del T. Rex? </title>
+                    <author>Amy Mckeever </author>
+                    <publisher>National Geographic </publisher>
+                    <date>2021</date>
+                    </analytic>
+            </biblStruct>
+            </sourceDesc>
+
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head> Gli antichi primati esistevano all’epoca del T. Rex? </head>
+                <p> I più antichi fossili noti di primate sono stati datati poco dopo l’estinzione di massa di <num>66 milioni</num> di anni fa. 
+                Un dato che indica che gli antenati dei primati risalgono a epoche ancora precedenti.</p>
+                <p>Poco dopo l’impatto dell’<ref target="https://www.nationalgeographic.it/spazio/2020/10/lasteroide-bennu-potrebbe-rivelare-le-origini-della-vita">asteroide</ref> che causò la storica estinzione di <num>66 milioni</num> di anni fa, 
+                iniziò a prosperare un gruppo di mammiferi con l’inclinazione ad arrampicarsi sugli alberi e a cibarsi di frutta.</p>
+                <p> Questi animali — i primi parenti dei primati — avrebbero generato il lignaggio che portò alle prime scimmie 
+                inclusi i grandi primati come gorilla, scimpanzé e infine l’uomo. </p>
+                <p>Gli scienziati hanno da poco scoperto i <ref target="https://www.nationalgeographic.it/scienza/2020/11/dopo-14-anni-il-fossile-dei-dinosauri-combattenti-puo-finalmente-rivelare-i-suoi">fossili </ref>del più antico primate noto tra alcuni reperti di strani denti rimasti 
+                nascosti per decenni nel cassetto di un museo. Alcuni di questi denti, recentemente descritti sulla rivista <hi rend="italic">Royal Society Open Science</hi>, 
+                appartenevano alla nuova specie <term id="PMK" rend="italic">Purgatorius mckeeveri</term>, un precursore in miniatura dei primati moderni che visse <num>65,9 milioni</num>di anni fa, 
+                ovvero <num>100.000</num> anni dopo l’evento di estinzione che ebbe luogo alla fine del periodo Cretaceo.</p>
+                <p><q>"Questo rende necessaria una revisione delle teorie sull’evoluzione" </q> afferma <name type="person">Gregory Wilson Mantilla</name>, autore principale dello studio e 
+                professore di biologia presso l’<name type="place">Università di Washington</name>, che studia i mammiferi antichi.</p>
+                <p>La scoperta inoltre rafforza una teoria che ipotizza che gli antenati dei primati esistessero già all’epoca dei dinosauri, e siano in 
+                qualche modo sopravvissuti all’estinzione che ha eliminato circa i tre quarti delle forme di vita presenti sulla Terra. Due dei denti 
+                oggetto del nuovo studio appartengono a una seconda specie, già nota:<term id="PJ" rend="italic">Purgatorius janisae</term>, anch’essa vissuta <num>65,9 milioni</num> di anni fa. 
+                E se queste due antiche specie di primate esistevano a quel tempo, qualche animale sconosciuto deve essere venuto prima di loro.</p>
+                <p><q>"L’esistenza di due specie indica che l’origine del gruppo è ancora precedente: questa è l’informazione fondamentale che fornisce 
+                questa scoperta" </q> afferma <name type="person">Mary Silcox</name>, paleontologa presso l’<name type="place">Università di Toronto</name>. <q>"Queste specie devono aver avuto a loro volta 
+                degli antenati."</q></p>
+            </div>
+        
+        
+        
+        
+        </body>
+    </text>
+</TEI>
