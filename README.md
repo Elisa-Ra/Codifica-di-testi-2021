@@ -64,3 +64,6 @@ Utilizzare puntatori, note, lista, glossario marcare nomi, rs, term.
 
 ## 11. Esercizio 11:
 Trascrivere e codificare un frammento di lettera di Bellini. (Vincenzo Bellini a Carlo Pepoli, in Puteaux, 26 giugno 1834)
+
+## 12. Esercizio 12:
+Codificare lettera Bellini utilizzando il tagset facsimile e il collegamento completo testo-immagine.
