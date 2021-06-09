@@ -61,3 +61,6 @@ Utilizzare puntatori, note, lista, glossario marcare nomi, rs, term.
 ## 10. Esercizio 10:
 * codificare usando gli opportuni elementi TEI un articolo di rivista
 * codificare usando gli opportuni elementi TEI una cartolina
+
+## 11. Esercizio 11:
+Trascrivere e codificare un frammento di lettera di Bellini. (Vincenzo Bellini a Carlo Pepoli, in Puteaux, 26 giugno 1834)
