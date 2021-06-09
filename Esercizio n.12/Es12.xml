@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--Filename: Es12.xml
+    Author: Elisa Raeli
+    Date: 09/06/2021 -->
+<TEI>
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <head>Vincenzo Bellini a Carlo Pepoli</head>
+                <respStmt>
+                    <resp>Conversione TEI P5 a cura di</resp>
+                    <name>Elisa Raeli</name>
+                </respStmt>
+            </titleStmt>
+
+            <sourceDesc>
+                <bibl> 
+                    <author>Vincenzo Bellini</author>
+                    <date when="26-06-1834">26 June 1834</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div facs="#green" xml:id="divGreen">
+                <pb facs="#page1" n="1" xml:id="page-1"/>
+                <gap quantity="3" unit="chars" reason="illegible"/>
+            </div>
+            <div facs="#light-blue" xml:id="divLightBlue">
+                <p><placeName ref="#NSS" xml:lang="fr">
+                    <unclear reason="faded">NEUILLY-SUR-SEINE</unclear>
+                    </placeName>
+                </p>
+                <p xml:lang="fr">
+                    à Monsieur </lb>
+                    Monsieur le Comte <persName>Pepoli</persName> </lb>
+                    n<pc>°</pc><num value="1">1</num><pc>:</pc> passage des petits Pères </lb>
+                    à <placeName>Paris</placeName>
+                </p> 
+            </div>
+            <div facs="#blue" xml:id="divBlue">
+                <p>
+                <num value="27">27</num><pc>-</pc> <lb/>
+                Lettera del </lb>
+                <persName>Bellini</persName> sul duetto <lb/>
+                del p<pc>°</pc> atto dei Puritani </lb>
+                <gap reason="illegible"/> 
+                </p>
+            </div>
+            <pb facs="#page2" n="2" xml:id="page-2"/>
+            <div facs="#red" xml:id="divRed">
+                <p><dateline>
+                        <date when="06-26"><w xml:lang="en">Jun</w>
+                        <num value="26">26</num>
+                        </date>
+                        <pc>:</pc>
+                        <name type="place" xml:lang="fr">Puteaux</name> n <pc>°</pc><pc>:</pc>
+                        <num value="19">19</num>
+                        bis <unclear>rampe</unclear>
+                        <hi rend="underline">de Neuilly</hi>
+                    </dateline>
+                </p>
+            </div>
+            <div facs="#orange" xml:id="divOrange">
+                <p>Mio caro<name type="person">
+                    <choice>
+                        <orig>Carluccio</orig>
+                        <reg>Carlo</reg>
+                    </choice>
+                    </name>
+                    </lb>Avendo steso l<pc>'</pc>intero<emph>duetto</emph>
+                    </lb>e mancando in esso qualche
+                    </lb>cosetta<pc>,</pc> desidererei che tu
+                    </lb>t<pc>'</pc>incomodassi a venire a 
+                    </lb><placeName xml:lang="fr">Puteaux</placeName> per tutto fissare <pc>,</pc> e
+                    </lb>e nell<pc>'</pc><choice>
+                    <orig>istesso</orig>
+                    <reg>stesso</reg>
+                    </choice>
+                    tempo darmi la 
+                    </lb>sortita di Rubini <pc>,</pc> se è termi
+                    <lb break="no"/>nata <pc>.</pc>T<pc>'</pc>aspetto in 
+                    <choice>
+                    <orig>qual</orig>
+                    <reg>quale</reg>
+                    </choice>
+                    giorno
+                    </lb> ed in qual<pc>'</pc>ora vorrai <pc>.</pc>
+                </p>
+            </div>
+            <div facs="#pink" xml:id="divPink">
+                <p>Il tuo <persName rend="underlined">Vincenzillo</persName></p>
+            </div>
+        </body>
+    </text>
+    <facsimile>
+        <surface>
+        <graphic url='facsimile-bellini.PNG'  width='417px' height='277px' />
+        <zone xml:id="green" start="#divGreen" ulx="8" uly="5" lrx="205" lry="41" />
+        <zone xml:id="lightBlue" start="#divLightBlue" ulx="11" uly="46" lrx="206" lry="157" />
+        <zone xml:id="blue" start="#divBlue" ulx="9" uly="162" lrx="205" lry="269" />
+        <zone xml:id="red" start="#divRed" ulx="209" uly="6" lrx="412" lry="34" />
+        <zone xml:id="orange" start="#divOrange" ulx="227" uly="38" lrx="409" lry="262" />
+        <zone xml:id="pink" start="#divPink" ulx="318" uly="247" lrx="407" lry="270" />
+        </surface> 
+    </facsimile>   
+</TEI>
