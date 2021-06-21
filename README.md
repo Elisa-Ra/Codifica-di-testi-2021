@@ -67,3 +67,6 @@ Trascrivere e codificare un frammento di lettera di Bellini. (Vincenzo Bellini a
 
 ## 12. Esercizio 12:
 Codificare lettera Bellini utilizzando il tagset facsimile e il collegamento completo testo-immagine.
+
+## 13. Esercizio 13:
+Modificare opportunamente il file template.xsl aggiungendo variabili, parametri e call template.
