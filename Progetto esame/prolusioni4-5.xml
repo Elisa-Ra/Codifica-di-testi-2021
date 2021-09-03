@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<?xml-stylesheet type="text/xsl" href="prolusionixsl.xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> 
+
+    <teiHeader>
+        <fileDesc> <!--Informazioni sul file stesso--> 
+            <titleStmt>
+                <title xml:id="titolo1" type="main" xml:lang="fr">Trois premières conférences à l'Université </title>
+                <title xml:id="titolo2" type="sub" xml:lang="fr">(cours d'ouverture,<date when="1891-11"> novembre 1891</date>)</title>
+                <author ref="#FdS">Ferdinand de Saussure</author>
+            </titleStmt>
+        
+            <editionStmt> <!--Informazioni sull'edizione-->  
+                <edition n="DigitalEdition">Edizione digitale</edition>
+                <respStmt>
+					<resp>Progetto coordinato da </resp>
+					<name ref="#AMDG">Angelo Mario Del Grosso</name>
+				</respStmt>
+                <respStmt> 
+                    <resp>Conversione TEI P5 a cura di </resp>
+                    <name ref="#ER">Elisa Raeli</name>
+                </respStmt>             
+            </editionStmt>
+ 
+            <publicationStmt> 
+                <publisher ref="https://archives.bge-geneve.ch/archives/archives/fonds/saussure_ferdinand_de/view:5892/n:89">Biblioteca di Ginevra</publisher> 
+                <pubPlace ref="#GE">Ginevra</pubPlace>
+                <date when="2021">2021</date>
+            </publicationStmt>
+            
+            <sourceDesc> <!--Informazioni fonte-->
+                <bibl source="#B-E-2002"> <!--bibliografia Bouquet-Engler-->
+                    <title xml:lang="fr">Écrits de linguistique générale</title>
+                    <author> 
+                        <persName ref="#FdS">
+                            <forename>Ferdinand </forename>
+                            <surname>de Saussure</surname>
+                        </persName>
+                    </author> 
+                    <author>
+                        <persName ref="#SB">
+                            <forename>Simon </forename>
+                            <surname>Bouquet</surname>
+                        </persName>
+                    </author>
+                    <author>
+                        <persName ref="#RE">
+                            <forename>Rudolf </forename>
+                            <surname>Engler</surname>
+                        </persName>
+                    </author>
+                    <author>
+                        <persName ref="#AW">
+                            <forename>Antoinette </forename>
+                            <surname>Weil</surname>
+                        </persName>
+                    </author>
+                    <publisher>Gallimard</publisher>
+                    <pubPlace ref="#PG">Parigi</pubPlace>
+                    <date when="2002">2002</date>
+                </bibl>
+                
+                <bibl source="#F-2006"> <!--Informazioni sul saggio di Emanuele Fadda-->
+                    <title type="main" xml:lang="it">Lingua e mente sociale. </title>
+                    <title type="sub" xml:lang="it">Per una teoria delle istituzioni linguistiche a partire da Saussure e Mead</title>
+                    <author>
+                        <persName ref="#EF">
+                            <forename>Emanuele </forename>
+                            <surname>Fadda</surname>
+                        </persName>
+                    </author>
+                    <publisher>Bonanno Editore</publisher> 
+                    <date when="2006">2006</date> 
+                </bibl>
+
+
+                <msDesc> <!--Descrizione manoscritto-->
+                    
+                    <msIdentifier>
+                        <settlement ref="#GE">Ginevra</settlement>
+                        <repository role="library" ref="https://archives.bge-geneve.ch/">Biblioteca di Ginevra</repository>
+                        <idno type="inventory">BGE Ms. fr. 3951/1.1-3</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author ref="#FdS">
+                                <persName>
+                                <forename>Ferdinand </forename>
+                                <surname> de Saussure</surname>
+                                </persName>
+                            </author>
+                            <title type="main" xml:lang="fr">Trois premières conférences à l'Université </title>
+                            <textLang mainLang="fr">Francese</textLang>
+                            <docDate>
+                                <date when="1891-11-06">06/11/1891</date>
+                                <date when="1891-11-10">10/11/1891</date>
+                                <date when="1891-11-13">13/11/1891</date>
+                            </docDate>
+                        </msItem>
+                    </msContents>
+                    <physDesc> <!--descrizione fisica del manoscritto-->
+                        <objectDesc form="folio"> <!--descrizione componenti fisiche-->
+                            <supportDesc material="paper" source="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef">
+                            <support>67 pagine ed un foglietto di <material>carta</material></support>
+                            <foliation>Come aggiunta postuma, nella parte alta del foglio è presente un numero cerchiato che indica la pagina. </foliation>
+                            <condition>I fogli sono in buone condizioni, normalmente ingialliti dal tempo, quasi totalmente integri tranne alcuni che presentano piccoli strappi nella parte interna della pagina. </condition>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote xml:id="hand1"><p>Il testo è stato scritto a mano da <persName ref="#FdS">Ferdinand de Saussure</persName> </p></handNote>
+                        </handDesc>                  
+                    </physDesc>
+                    <history>
+						<origin notAfter="1891-11-13">
+							<p>Appunti scritti da <persName ref="#FDS">Ferdinand De Saussure</persName> utilizzati in parte per le
+							    prime tre lezioni del corso di <foreign xml:lang="fr">Phonétique du grec et du latin</foreign>  all'Università di <placeName ref="#GN">Ginevra</placeName> 
+                                del <date when="1891-11-06">6</date>, <date when="1891-11-10">10</date>
+								e <date when="1891-11-13">13 novembre 1891</date>.
+							</p>
+						</origin>		
+					</history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc> 
+    </teiHeader>
+    <facsimile>  
+        <surface n="1" xml:id="img1" start="#pericope1"><!--pagina 4-->
+            <graphic url='p4.jpg' width='700px' height='120px' xml:id="p4"/>
+            <zone ulx="322" uly="0" lrx="699" lry="34" rendition="line" xml:id="r1-p4" start="#seg1-p4"/> <!--riga 1, pagina 4-->
+            <zone ulx="211" uly="37" lrx="698" lry="67" rendition="line" xml:id="r2-p4" start="#seg2-p4"/> <!--riga 2, pagina 4-->
+            <zone ulx="1" uly="70" lrx="697" lry="106" rendition="line" xml:id="r3-p4" start="#seg3-p4"/> <!--riga 3, pagina 4-->
+        </surface> 
+        <surface n="2" xml:id="img2" start="#pericope2"> <!--pagina 5 -->
+            <graphic url='p5.jpg' width='501px' height='350px' xml:id="p5"/>
+            <zone ulx="11" uly="7" lrx="59" lry="50" xml:id="pb5" start="#sup5"/> 
+            <zone ulx="67" uly="22" lrx="499" lry="72" rendition="line"  xml:id="r1-p5" start="#seg1-p5"/>  <!--riga 1, pagina 5-->
+            <zone ulx="3" uly="73" lrx="498" lry="102" rendition="line" xml:id="r2-p5" start="#seg2-p5"/> <!--riga 2, pagina 5-->
+            <zone ulx="2" uly="102" lrx="497" lry="133" rendition="line" xml:id="r3-p5" start="#seg3-p5"/> <!--riga 3, pagina 5-->
+            <zone ulx="0" uly="134" lrx="500" lry="152" rendition="line" xml:id="r4-p5" start="#seg4-p5"/> <!--riga 4, pagina 5-->
+            <zone ulx="2" uly="153" lrx="499" lry="177" rendition="line" xml:id="r5-p5" start="#seg5-p5"/> <!--riga 5, pagina 5-->
+            <zone ulx="3" uly="174" lrx="498" lry="206" rendition="line" xml:id="r6-p5" start="#seg6-p5"/> <!--riga 6, pagina 5-->
+            <zone ulx="1" uly="207" lrx="499" lry="247" rendition="line" xml:id="r7-p5" start="#seg7-p5"/> <!--riga 7, pagina 5-->
+            <zone ulx="1" uly="246" lrx="500" lry="274" rendition="line" xml:id="r8-p5" start="#seg8-p5"/> <!--riga 8, pagina 5-->
+            <zone ulx="2" uly="274" lrx="499" lry="294" rendition="line" xml:id="r9-p5" start="#seg9-p5"/> <!--riga 9, pagina 5-->
+            <zone ulx="2" uly="294" lrx="499" lry="326" rendition="line" xml:id="r10-p5" start="#seg10-p5"/> <!--riga 10, pagina 5-->
+            <zone ulx="3" uly="327" lrx="499" lry="349" rendition="line" xml:id="r11-p5" start="#seg11-p5"/> <!--riga 11, pagina 5-->
+        </surface>
+
+    </facsimile>
+    
+
+
+
+
+    <text>
+        <body>
+            
+            <div xml:id="francese" xml:lang="fr">
+
+                <ab n="1" xml:id="pericope1" facs="#img1"> <!--prima pericope-->
+                    <seg xml:id="seg1-p4" n="1" facs="#r1-p4">
+                        <lb n="1"/>Maintenant<pc force="strong">,</pc> estime<pc force="inter">-</pc>t<pc force="inter">-</pc>on
+                    </seg>  
+                    <seg xml:id="seg2-p4" n="2" facs="#r2-p4">
+                        <lb n="2"/>que le <term ref="#langage">langage</term> soit <choice><abbr type="contraction">ds </abbr> <expan>dans</expan></choice> cet ensemble
+                    </seg> 
+                    <seg xml:id="seg3-p4" n="3" facs="#r3-p4">
+                        <lb n="3"/>un facteur digne d<pc force="inter">’</pc>être aperçu <add place="above">ou</add> un facteur nul<pc force="strong">,</pc> <del rend="strikethrough"><gap reason="cancelled" extent="one or two letters" atLeast="1" atMost="2" unit="chars"/></del> une quantité <del rend="strikethrough">négligeable</del>
+                    </seg>         
+                    
+                    <pb corresp="#p5" n="5"/> <!--cambio pagina-->
+                    
+                    <seg corresp="#seg1-p5" n="1" facs="#r1-p5"> <!--prima riga pagina 5-->
+                         <supplied xml:id="sup5" facs="#pb5"><label n="5"><hi>5</hi></label></supplied>
+                        <lb n="1"/><subst><add place="above">appéciable</add><del> positive</del></subst> <del rend="strikethrough"><gap reason="cancelled" extent="six or seven letters" atLeast="6" atMost="7" unit="chars"/></del> ou une quantité négligeable <del><pc>,</pc></del><supplied><pc force="strong">.</pc></supplied>
+                    </seg>
+                </ab> <!--fine prima pericope-->
+                <ab n="2" xml:id="pericope2" facs="#img2"> <!--seconda pericope-->
+                    <seg xml:id="seg1-p5" n="1" facs="#r1-p5"> <!--continua la prima riga-->
+                        <gap quantity="1" unit="char" reason="editorial"/> C<pc force="strong">’</pc>est 
+                    </seg>
+                    <seg xml:id="seg2-p5" n="2" facs="#r2-p5">
+                        <lb n="2"/>de là <del><pc>,</pc></del><supplied><pc>(</pc></supplied>mais seulement de là<del><pc>,</pc></del><supplied><pc>)</pc></supplied> que <subst><add place="above">peut</add><del> doit</del></subst> dépendre
+                    </seg>
+                    <seg  xml:id="seg3-p5" n="3" facs="#r3-p5">
+                        <lb n="3"/>un<del rend="strikethrough">e</del> <subst><add place="above">jugement équitable</add><del> esacte appreciation</del></subst><add place="above">et </add> <choice><sic>éclaireé</sic><corr> éclairé</corr></choice> <subst><add place="above">sur </add><del>le </del></subst>la valeur
+                    </seg> 
+                    <seg  xml:id="seg4-p5" n="4" facs="#r4-p5">
+                        <lb n="4"/>de l<pc force="inter">’</pc><term ref="#étude-du-langage">étude du langage</term> dans la connaissance
+                    </seg> 
+                    <seg  xml:id="seg5-p5" n="5" facs="#r5-p5">
+                        <lb n="5"/>générale<pc>;</pc> les rayons de lumière<supplied><pc force="strong">,</pc></supplied> <add place="above">si intenses qu<pc force="inter">’</pc>ils aient été</add> <supplied><pc force="strong">,</pc></supplied>qui ont pu
+                    </seg> 
+                    <seg  xml:id="seg6-p5" n="6" facs="#r6-p5"> 
+                        <lb n="6"/><subst><add place="above">soudain tomber</add><del rend="strikethrough"><gap reason="cancelled"/></del></subst> <add place="below">de la <term ref="#langue">langue</term></add> sur d<pc force="inter">’</pc>autres disciplines et sur 
+                    </seg>
+                    <seg  xml:id="seg7-p5" n="7" facs="#r7-p5">
+                        <lb n="7"/>d<pc force="inter">’</pc>autres <term ref="#objets">objets</term> de recherche<pc force="strong">,</pc> <subst><add place="above">ne sauraient avoir</add><del rend="strikethrough"><gap reason="cancelled"/></del></subst>
+                    </seg>
+                    <seg  xml:id="seg8-p5" n="8" facs="#r8-p5">
+                        <lb n="8"/>qu<pc force="inter">’</pc>une importance absolument épisodique et 
+                    </seg>
+                    <seg  xml:id="seg9-p5" n="9" facs="#r9-p5"> 
+                        <lb n="9"/><subst><add place="left">incidente</add><del> incidente</del></subst> <del><pc>,</pc></del> pour l<pc force="inter">’</pc><term ref="#étude-de-la-langue">étude de la langue</term> elle<pc force="inter">-</pc>même<pc force="strong">,</pc> <del rend="strikethroug"><gap reason="cancelled"/></del>
+                    </seg>
+                    <seg  xml:id="seg10-p5" n="10" facs="#r10-p5">
+                        <lb n="10"/>pour <subst><add place="above">le</add><del rend="strikethrough"><gap reason="candelled"/></del></subst> développement <del rend="strikethrough"><gap reason="cancelled"/></del> intérieur <add place="above">de cette étude</add> et pour
+                    </seg> 
+                    <seg  xml:id="seg11-p5" n="11" facs="#r11-p5">
+                        <lb n="11"/>le but vers lequel elle marche<pc force="strong">.</pc>
+                    </seg> 
+                </ab>
+                 
+            </div>
+
+            <div xml:id="traduzione" xml:lang="it"> 
+                    <ab n="1" corresp="#pericope1">
+                        <seg corresp="#seg1-p4" n="1" facs="#r1-p4">
+                            <lb n="1"/>Ora, il problema è se si ritiene 
+                        </seg>
+                        <seg corresp="#seg2-p4" n="2" facs="#r2-p4">
+                            <lb n="2"/>che il linguaggio sia in tale insieme 
+                        </seg>
+                        <seg corresp="#seg3-p4" n="3" facs="#r3-p4">    
+                            <lb n="3"/>un fattore degno d'essere preso in conto o un fattore nullo, una quantità 
+                        </seg>  
+                        <pb corresp="#p5" n="5"/>  
+                        <seg corresp="#seg1-p5" n="1" facs="#r1-p5">    
+                            <lb n="1"/>apprezzabile o una quantità trascurabile.
+                        </seg>
+                    </ab>
+                    <ab n="2" corresp="#pericope2">
+                        <seg corresp="#seg1-p5" n="1" facs="#r1-p5">    
+                            È
+                        </seg> 
+                        <seg corresp="#seg2_p5" n="2" facs="#r2-p5">
+                            <lb n="2"/>da lì (e solo da lì) che può dipendere 
+                        </seg>
+                        <seg corresp="#seg3-p5" n="3" facs="#r3-p5">   
+                            <lb n="3"/>un giudizio equo ed illuminato sul valore 
+                        </seg>    
+                        <seg corresp="#seg4-p5" n="4" facs="#r4-p5">    
+                            <lb n="4"/>dello studio del linguaggio nella conoscenza 
+                        </seg>
+                        <seg corresp="#seg5-p5" n="5" facs="#r5-p5">
+                            <lb n="5"/>generale; i raggi di luce, per quanto intensi siano stati, che hanno potuto
+                        </seg>   
+                        <seg corresp="#seg6-p5" n="6" facs="#r6-p5">
+                            <lb n="6"/>d'un tratto scendere dalla lingua su altre discipline e su
+                        </seg>   
+                        <seg corresp="#seg7-p5" n="7" facs="#r7-p5">
+                            <lb n="7"/>altri oggetti di ricerca, non potrebbero avere 
+                        </seg>   
+                        <seg corresp="#seg8-p5" n="8" facs="#r8-p5">
+                            <lb n="8"/>che un'importanza assolutamente episodica e
+                        </seg>   
+                        <seg corresp="#seg9-p5" n="9" facs="#r9-p5">
+                            <lb n="9"/>incidentale per lo studio della lingua medesima, 
+                        </seg>   
+                        <seg corresp="#seg10-p5" n="10" facs="#r10-p5">
+                            <lb n="10"/>per lo sviluppo interno di questo studio e per 
+                        </seg>    
+                        <seg corresp="#seg11-p5" n="11" facs="#r11-p5">
+                            <lb n="11"/>il traguardo verso il quale essa si muove.
+                        </seg>
+                    </ab>
+            </div>
+
+        </body>
+
+        <back>
+            <listPerson>
+         
+                <person role="Linguista" xml:id="FdS" >
+                    <persName xml:lang="fr">Ferdinand de Saussure</persName>
+                    <sex value="M"/>
+                    <birth when="1857-11-26"> 26-11-1857 
+                        <placeName>
+                            <settlement ref="#GE">Ginevra</settlement>
+                            <country key="CHE">Svizzera</country>
+                        </placeName>
+                    </birth>
+                    <death>
+					    <date when="1913-02-22">22-11-1913</date>
+						<placeName ref="#VlC">
+							<settlement>Vufflens-le-Château</settlement>
+							<country key="CHE">Svizzera</country>
+						</placeName>
+				    </death>
+                </person>
+        
+                <person role="Autore" xml:id="SB">
+                    <persName xml:lang="fr">Simon Bouquet</persName>
+                    <sex value="M"/>
+                    <birth when="1954">1954</birth>
+                </person>
+
+                <person role="Linguista" xml:id="RE">
+                    <persName xml:lang="de">Rudolf Engler</persName>
+                    <sex value="M"/>
+                    <birth when="25-10-1930"> 25-10-1930 
+                        <placeName>
+                            <settlement ref="#TE">Teufen</settlement>
+                            <country key="CHE">Svizzera</country>
+                        </placeName>
+                    </birth>
+                </person>
+
+                <person role="Autrice" xml:id="AW">
+                    <persName xml:lang="fr">Antoinette Weil</persName>
+                    <sex value="F"/>
+                </person>
+
+                <person role="Autore" xml:id="EF">
+                    <persName xml:lang="it">Emanuele Fadda</persName>
+                    <sex value="M"/>
+                    <birth when="1972">1972</birth>
+                </person>
+
+                <person xml:id="AMDG">
+                    <persName xml:lang="it">Angelo Mario Del Grosso</persName>
+                    <sex value="M"/>
+                    <birth when="19-02-1980"> 19-02-1980</birth>
+                </person>
+                
+                <person xml:id="ER">
+                    <persName xml:lang="it">Elisa Raeli</persName>
+                    <sex value="F"/>
+                    <birth when="25-09-1997"> 25-09-1997</birth>
+                </person>
+        
+            </listPerson>
+        
+            <listPlace>
+            
+                <place xml:id="GE">
+                    <placeName ref="https://it.wikipedia.org/wiki/Ginevra">Ginevra</placeName> 
+                    <country key="CHE">Svizzera</country>  
+                </place>
+            
+                <place xml:id="PG">
+                    <placeName ref="https://it.wikipedia.org/wiki/Parigi">Parigi</placeName> 
+                    <country key="FR">Francia</country>  
+                </place>
+
+                 <place xml:id="TE">
+                    <placeName ref="https://it.wikipedia.org/wiki/Teufen">Teufen</placeName> 
+                    <country key="CHE">Svizzera</country>  
+                </place>
+
+            </listPlace>  
+        
+            <div xml:id="d-langage"> <!--termini tecnici-->
+                <list type="gloss" n="1">
+                    
+                    <label>
+                        <term xml:lang="fr" xml:id="langage">Langage</term>
+                    </label>
+                    <item n="1">
+                        <gloss xml:lang="it" target="#langage" source="https://www.treccani.it/enciclopedia/linguaggio/">
+                            Forma di condotta comunicativa atta a trasmettere informazioni e a stabilire un rapporto di interazione che utilizza simboli aventi identico valore per gli individui appartenenti a uno stesso ambiente socioculturale.
+                        </gloss>                 
+                    </item>
+                </list>
+                </div>
+
+            <div xml:id="d-elangage">
+                <list type="gloss" n="2">
+                    <label>
+                        <term xml:lang="fr" xml:id="étude-du-langage" >Étude du langage</term>
+                    </label>
+                    <item>
+                        <gloss xml:lang="it" target="#étude-du-langage" source="https://it.wikipedia.org/wiki/Linguistica">
+                            Studio scientifico del linguaggio verbale umano e delle sue strutture.
+                        </gloss>                   
+                    </item>
+                </list>
+            </div>
+            
+            <div xml:id="d-langue">
+                <list type="gloss" n="3">
+                    <label>
+                        <term xml:lang="fr" xml:id="langue" >Langue</term>
+                    </label>
+                    <item>
+                        <gloss xml:lang="it" target="#langue" source="https://www.treccani.it/enciclopedia/langue/">
+                            L’insieme delle convenzioni adottate dai membri di una comunità per comunicare tra loro.
+                        </gloss>                   
+                    </item>
+                </list>
+            </div>
+            
+
+           <div xml:id="d-objets">
+                <list type="gloss" n="4">
+                    <label>
+                        <term xml:lang="fr" xml:id="objets" >Objets</term>
+                    </label>
+                    <item>
+                        <gloss xml:lang="it" target="#objets">
+                            Oggetti della ricerca linguistica
+                        </gloss>                   
+                    </item>
+                </list>
+            </div>
+           
+            <div xml:id="d-elangue">
+                <list type="gloss" n="5">
+                    <label>
+                        <term xml:lang="fr" xml:id="étude-de-la-langue" source="https://it.wikipedia.org/wiki/Corso_di_linguistica_generale">Étude de la langue</term>
+                    </label>
+                    <item>
+                        <gloss xml:lang="it" target="#étude-de-la-langue">
+                            Lo studio del linguaggio si può suddividere in due parti: lo studio della langue, oggetto sociale e indipendente dalla volontà individuale (studio psichico) e lo studio della parole.
+                        </gloss>                   
+                    </item>
+                </list>
+            </div>
+       
+        </back>
+
+    </text>
+
+</TEI>
