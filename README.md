@@ -1,6 +1,9 @@
 # Codifica di testi-2021
 Repository che contiene gli esercizi ed il progetto per l'esame _Codifica di testi_ dell'Università di Pisa
 
+PROGETTO ESAME:
+Codifica "prolusioni - manoscritto Ms. fr. 3951/1" delle due pericopi presenti nelle pagine 4-5 (immagini 12-14).
+
 ## 1. Esercizio 1:
 Creare un file .xml ed inserire un prologo con la dichiarazione XML e un commento con le vostre informazioni.
 
